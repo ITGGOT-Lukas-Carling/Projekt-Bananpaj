@@ -1,0 +1,49 @@
+.container {
+    display:flex;
+    width:500px;
+    background-color: #666;
+    flex-direction: column;
+}
+
+.navigation {
+    background-color: lawngreen;
+    width:auto;
+    height:50px;
+}
+
+.header {
+    background-color: blue;
+    width:auto;
+    height:50px;
+}
+
+.main {
+    background-color: orange;
+    width:auto;
+    height:1000px;
+}
+
+.footer {
+    background-color: deeppink;
+    width:auto;
+    height:50px;
+}
+
+.wrapper {
+    display:flex;
+    flex-direction: row;
+    width: 500px;
+    height: 2000px;
+}
+
+.aside {
+visibility: hidden;
+width:500px;
+background-color: red;
+}
+
+@media all and (min-width: 999px) {
+    .aside {
+        visibility: visible;
+    }
+}
