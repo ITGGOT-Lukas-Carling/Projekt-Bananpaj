@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .container {
     display:flex;
     width:100%;
@@ -8,7 +12,7 @@
 .navigationbar {
     background-color: black;
     width:auto;
-    height:200px;
+    height:10%;
     display:flex;
     flex-direction:row;
 }
@@ -22,29 +26,34 @@ justify-content: center;
 align-items:center;
 }
 
+.navigation:hover{
+    cursor: wait;
+    color: darkslategrey;
+}
+
 .header {
     background-color: blue;
     width:auto;
-    height:75px;
+    height:5%;
 }
 
 .main {
     background-color: orange;
     width:100%;
-    height:1405px;
+    height:80%;
 }
 
 .footer {
-    background-color: deeppink;
+    background-color: gray;
     width:auto;
-    height:75px;
+    height:5%;
 }
 
 .wrapper {
     display:flex;
     flex-direction: row;
-    width: 100%;
-    height: 1725px;
+   width: 100%;
+    height: 100%;
 }
 
 .aside {
@@ -53,3 +62,6 @@ width:500px;
 background-color: red;
 }
 
+.website_container {
+    height: 100vh;
+}
